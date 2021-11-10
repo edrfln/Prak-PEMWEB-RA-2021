@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>119140018</title>
+
+    </head>
+
+    <body>
+        <!--mengganti tema-->
+        <div id="theme">
+            <!--2 buah tombol dark/light-->
+            <button id="darkMode" onclick="DarkMode(true)" >Dark</button>
+            <button style = "display: none" id ="lightMode" class="is-hidden" onclick="DarkMode(false)">Light</button>
+        </div>
+
+        <h2>This is my website</h2>
+
+        <form>
+            <!--Menampilkan teks berdasarkan pilihan cuaca menggunakan drop-down-->
+            <label for="weather">
+                Select the weather type today 
+            </label>
+            <select id="weather" onchange="display()">
+                <option value="1">Sunny</option>
+                <option value="2">Rainy</option>
+                <option value="3">Cloudy</option>
+            </select> 
+            
+            <!--Teks yang akan muncul-->
+            <div id = "sunny" style="display: none;">
+                <p>It is nice and sunny outside today. Wear shorts! go to the beach, or the park, and  get an ice cream.</p>
+            </div>
+            <div id = "rainy" style="display: none;">
+                <p>Rain is falling outside. take a rain coat and a brolly, and dont stay our for too long.</p>
+            </div>
+            <div id = "cloudy" style="display: none;">
+                <p>It is nice day to go walk and not to hot outside. But be careful it might be raining later.</p>
+            </div>
+
+        <br><br>
+            <!--Input angka oleh user-->
+            <p>Input Number</p>
+            <input type="" name="" id="input">
+            <button id="button" >Get Factorial</button>
+            <div id="demo"></div>
+        </form>
+
+        <script src="mg3.js"></script>
+
+    </body>
+
+    <!--tampilan dark mode-->
+    
+   <style>
+    body.darkmode{
+    background: rgb(57, 57, 57);
+    color: rgb(243, 243, 243);
+    }
+   </style>
+
+</html>
