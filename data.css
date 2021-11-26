@@ -1,0 +1,19 @@
+table{
+    align-items: center;
+}
+h2{
+    text-align: center;
+    background-color: #520001;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFD085;
+    font-size: 38px;
+}
+head{
+    padding: 10px 0 10px 0;
+    text-align: center;
+    color: #520001;
+    font-size: 40px;
+}
